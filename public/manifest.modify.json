@@ -28,10 +28,10 @@
     },
     
 
-  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk=' 'sha256-/asboWWeJ4wVyS5WcTJrY08NbZ3LO0E83PlTwfC8HwI='; object-src 'self'",
+  "content_security_policy": "script-src 'self' '#####' ''#####''; object-src 'self'",
    "content_scripts": [
        {
-         "matches": ["http://eocvint01.eoc.net:18080/*"],
+         "matches": ["######"],
          "js": ["contentScript.js"],
          "css": ["contentScript.css"]
        }
