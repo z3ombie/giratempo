@@ -12,8 +12,8 @@
 /build
 /node_modules
 
-/public/manifest.json
-/public/background.json
+public/manifest.json
+public/background.json
 
 # misc
 .DS_Store
