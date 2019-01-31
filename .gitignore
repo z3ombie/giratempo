@@ -13,7 +13,7 @@
 /node_modules
 
 public/manifest.json
-public/background.json
+public/background.js
 
 # misc
 .DS_Store
