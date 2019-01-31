@@ -180,7 +180,12 @@ function start(){
 			}
 
 			if(matchedStory.select){
+				
 				if(!document.getElementById("select-giratempo")){
+					timePopup.value = "";
+					commentPopup.value = "";
+
+
 					const newEl = document.createElement('select');
 
 					newEl.id = "select-giratempo";
